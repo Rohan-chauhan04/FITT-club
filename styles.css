@@ -1,0 +1,230 @@
+/* Reset default browser styles */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;700&family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  nav ul li:hover {
+    opacity: 0.7;
+    font-size: 16.5px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .hero-section {
+    background-image: url("./images/background_images3.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero-content {
+    border-radius: 30px;
+    height: 50vh;
+    width: 60vw;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff05;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(25px);
+  }
+  .hero-content{
+    text-align: center;
+    color: #fff;
+  }
+  
+  .hero-content h1 {
+    font-family: "Roboto",sans-serif;
+    font-size: 80px;
+    color:white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: #f00;
+    color: #fff;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #d00;
+  }
+
+
+  .founder-members-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    text-align: center;
+    padding: 40px;
+    background-color: #f7f7f7;
+  }
+  
+  .founder-members-content h2 {
+    grid-column: 1 / -1;
+    margin-bottom: 20px;
+  }
+  
+  .founder-members-content p {
+    grid-column: 1 / -1;
+    margin-bottom: 30px;
+  }
+  
+  .founder-members-content .testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .founder-members-content img {
+    width: 100px;
+    border-radius: 80%;
+    margin-bottom: 10px;
+  }
+  
+  .cta-button {
+    grid-column: 1 / -1;
+    display: inline-block;
+    background-color: #f00;
+    color: #fff;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #d00;
+  }
+  
+  /* .members_section {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* background-color: #f7f7f7;
+    padding: 40px;
+  }
+  .founder-members-section {
+    background-color: #f7f7f7;
+    padding: 40px;
+  }
+  
+  .founder-members-content {
+    text-align: center;
+  }
+  
+  .founder-members-content h2 {
+    margin-bottom: 20px;
+  }
+  
+  .founder-members-content p {
+    margin-bottom: 30px;
+  }
+  
+  .founder-members-content .testimonial {
+    margin-bottom: 40px;
+  }
+  
+  .founder-members-content img {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: #f00;
+    color: #fff;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #d00;
+  } */ 
+  
+  
+  /* .members-content {
+    text-align: center;
+  }
+  
+  .members-content h2 {
+    margin-bottom: 20px;
+  }
+  
+  .members {
+    margin-bottom: 40px;
+  }
+  
+  .members img {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px; 
+  }*/
+  
+  .testimonial-section {
+    background-color: #f7f7f7;
+    padding: 40px;
+  }
+  
+  .testimonial-content {
+    text-align: center;
+  }
+  
+  .testimonial-content h2 {
+    margin-bottom: 20px;
+  }
+  
+  .testimonial {
+    margin-bottom: 40px;
+  }
+  
+  .testimonial img {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
